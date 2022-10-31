@@ -1,12 +1,12 @@
 import { useState } from "react";
+import Movies from "./components/movies";
+
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <main className="container">
-      <h1>Hello World!</h1>
+      <Movies></Movies>
     </main>
   );
 }

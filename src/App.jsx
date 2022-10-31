@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Movies from "./components/movies";
 
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
